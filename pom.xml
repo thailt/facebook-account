@@ -5,7 +5,7 @@
 	<artifactId>scraping</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>facebook scraping</name>
-	<description>scraping</description>
+	<description>facebook scraping</description>
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -18,5 +18,12 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.4.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
 	</dependencies>
 </project>
